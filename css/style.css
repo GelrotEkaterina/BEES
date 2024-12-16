@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    line-height: 2em;
+
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 30px auto;
+    /* align-items: center; */
+    border: 1px solid orange;
+    box-shadow: 0 0 10px 5px rgb(250, 204, 119);
+}
+
+.wrapper a {
+    color: orange;
+}
+
+.mainnav ul {
+    list-style-image: url(/img/li.gif);
+}
+
+/* HEADER БЛОК */
+
+.sitename {
+    font-size: 50px;
+    /* color: darkgoldenrod; */
+    color: black;
+    margin-left: 20px;
+}
+
+img {
+    /* border: 1px solid red; */
+    width: 1100px;
+    margin-top: 50px;
+}
+
+.mainnav img {
+    margin-top: 20px;
+}
+
+.mainnav {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items {
+    display: inline;
+    margin: 55px;
+}
+
+.mainnav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-items:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.mainnav ul {
+    list-style: none;
+}
+
+/* left aside block */
+.left_block {
+    /* width: 350px; */
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+/* main_one БЛОК */
+.main_one a {
+    /* max-width: 1100px; */
+    display: flex;
+    /* font-size: 11px;
+    line-height: auto; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.main_middle p {
+    font-size: 17px;
+    line-height: 2em;
+}
+
+.main_middle {
+    border: 1px solid red;
+    width: 900px;
+    margin-right: 20px;
+    padding: 20px;
+    /* float: center; */
+    margin-top: -30px;
+}
+
+
+.Mauris_sagittis a {
+    border-bottom: 1px solid gray;
+}
+
+.left_block h3 {
+    font-size: 30px;
+}
+
+.main_middle h2 {
+    font-size: 45px;
+}
+
+
+/* main_two BLOCK */
+.main_two {
+    display:flex;
+}
+
+
+
+
+
+
+/* FOOTER БЛОК */
+footer p {
+    text-align: center;
+    border-top: 1px solid orange;
+    height: 100px;
+    margin-top: 50px;
+    padding-top: 45px;
+}
